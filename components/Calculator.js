@@ -53,6 +53,8 @@ export default function Calc() {
                 <td onClick={clearCal}>C</td>
                 <td onClick={calculate}>=</td>
                 <td onClick={()=>addToCalc("/")}>/</td>
+
+                <td onClick={() => addToCalc("E")}>E</td>
             </tr>
             </tbody>
         </table>
